@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors');
+const cors = require('cors');// frontend ko backend ka access dene ke lie
 
 // Import routes
 // Note: If any routes are missing, they should be created or commented out.
